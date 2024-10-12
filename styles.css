@@ -4,80 +4,89 @@
 /* General body styling */
 body {
   font-family: 'Roboto', sans-serif;
-  background-color: #f8f9fa;
-  color: #333;
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-  margin: 0;
-  padding: 0 20px;
+  background-color: #f8f9fa; /* Light background for readability */
+  color: #333; /* Dark text for contrast */
+  text-align: center; /* Center text alignment */
+  display: flex; /* Flexbox layout */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  min-height: 100vh; /* Full height */
+  margin: 0; /* Remove default margin */
+  padding: 0 20px; /* Side padding */
 }
 
 /* Container for centering content */
 .container {
-  max-width: 600px;
-  width: 100%;
+  max-width: 600px; /* Limit max width */
+  width: 100%; /* Full width */
 }
 
-/* Styling for the main heading */
+/* Styling for headings */
 h1 {
-  font-size: 4em; /* Increase size for prominence */
-  color: #4285F4;
-  margin: 0;
-  font-weight: 700;
-  line-height: 1.2;
+  font-size: 4em; /* Responsive heading size */
+  color: #4285F4; /* Main brand colour */
+  margin: 0; /* Remove default margin */
+  font-weight: 700; /* Bold text */
+  line-height: 1.2; /* Line height */
 }
 
-/* Styling for the message paragraphs */
+/* Styling for paragraphs */
 p {
-  font-size: 1.2em; /* Set a standard font size */
-  color: #555;
-  margin: 20px 0;
+  font-size: 1.2em; /* Standard font size */
+  color: #555; /* Grey text */
+  margin: 20px 0; /* Vertical margin */
 }
 
 /* Link styling */
 a {
-  color: #4285F4;
-  text-decoration: none;
-  font-weight: bold;
-  transition: color 0.3s ease;
+  color: #4285F4; /* Link colour */
+  text-decoration: none; /* Remove underline */
+  font-weight: bold; /* Bold text */
+  transition: color 0.3s ease; /* Smooth transition */
 }
 
 a:hover {
   color: #2a68d1; /* Darker blue on hover */
 }
 
-/* Container to hold the buttons in a row */
+/* Button container */
 .button-container {
-  display: flex;
-  justify-content: center;
-  margin-top: 40px;
+  display: flex; /* Flexbox layout for buttons */
+  justify-content: center; /* Center buttons */
+  margin-top: 40px; /* Margin above buttons */
 }
 
 /* General button styling */
 .button {
-  padding: 12px 24px;
-  font-size: 1em;
-  font-weight: bold;
-  text-decoration: none;
-  border-radius: 25px;
-  color: white;
-  transition: background-color 0.3s ease, transform 0.3s ease;
+  padding: 12px 24px; /* Button padding */
+  font-size: 1em; /* Button font size */
+  font-weight: bold; /* Bold text */
+  text-decoration: none; /* Remove underline */
+  border-radius: 25px; /* Rounded corners */
+  color: white; /* White text */
+  transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transition */
 }
 
 /* Blue button for "Go to Homepage" */
 .button.home {
-  background-color: #4285F4;
+  background-color: #4285F4; /* Main button colour */
 }
 
-/* Hover and active effect for buttons */
+/* Hover effect for buttons */
 .button:hover {
   background-color: #2a68d1; /* Darker blue on hover */
-  transform: translateY(-2px);
+  transform: translateY(-2px); /* Elevate effect */
 }
 
 .button:active {
-  transform: translateY(0);
+  transform: translateY(0); /* Return to normal on click */
+}
+
+/* 404 Specific Styles */
+h1.error {
+  font-size: 10em; /* Larger size for 404 error */
+}
+
+p.error {
+  font-size: calc(0.2em + 1vw); /* Responsive size for 404 message */
 }
