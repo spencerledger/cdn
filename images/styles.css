@@ -21,34 +21,45 @@ body {
   width: 100%;
 }
 
-/* Styling for the large 404 text */
+/* Styling for the main heading */
 h1 {
-  font-size: 12vw;
+  font-size: 4em; /* Increase size for prominence */
   color: #4285F4;
   margin: 0;
   font-weight: 700;
-  line-height: 1;
+  line-height: 1.2;
 }
 
-/* Styling for the message paragraph with relative sizing */
+/* Styling for the message paragraphs */
 p {
-  font-size: calc(0.2em + 1vw);
+  font-size: 1.2em; /* Set a standard font size */
   color: #555;
-  margin: 20px 0 40px;
+  margin: 20px 0;
+}
+
+/* Link styling */
+a {
+  color: #4285F4;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #2a68d1; /* Darker blue on hover */
 }
 
 /* Container to hold the buttons in a row */
 .button-container {
   display: flex;
   justify-content: center;
-  gap: 20px;
-  margin-top: 20px;
+  margin-top: 40px;
 }
 
 /* General button styling */
 .button {
   padding: 12px 24px;
-  font-size: calc(0.8em + 0.2vw);
+  font-size: 1em;
   font-weight: bold;
   text-decoration: none;
   border-radius: 25px;
@@ -56,24 +67,14 @@ p {
   transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
-/* Blue button for "Go to homepage" */
+/* Blue button for "Go to Homepage" */
 .button.home {
   background-color: #4285F4;
 }
 
-/* Grey button for "Contact support" */
-.button.support {
-  background-color: #6c757d;
-}
-
 /* Hover and active effect for buttons */
 .button:hover {
-  background-color: #2a68d1;
-  transform: translateY(-2px);
-}
-
-.button.support:hover {
-  background-color: #5a6268;
+  background-color: #2a68d1; /* Darker blue on hover */
   transform: translateY(-2px);
 }
 
