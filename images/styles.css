@@ -1,0 +1,82 @@
+/* Import a modern font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* General body styling */
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0 20px;
+}
+
+/* Container for centering content */
+.container {
+  max-width: 600px;
+  width: 100%;
+}
+
+/* Styling for the large 404 text */
+h1 {
+  font-size: 12vw;
+  color: #4285F4;
+  margin: 0;
+  font-weight: 700;
+  line-height: 1;
+}
+
+/* Styling for the message paragraph with relative sizing */
+p {
+  font-size: calc(0.2em + 1vw);
+  color: #555;
+  margin: 20px 0 40px;
+}
+
+/* Container to hold the buttons in a row */
+.button-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+/* General button styling */
+.button {
+  padding: 12px 24px;
+  font-size: calc(0.8em + 0.2vw);
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 25px;
+  color: white;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+/* Blue button for "Go to homepage" */
+.button.home {
+  background-color: #4285F4;
+}
+
+/* Grey button for "Contact support" */
+.button.support {
+  background-color: #6c757d;
+}
+
+/* Hover and active effect for buttons */
+.button:hover {
+  background-color: #2a68d1;
+  transform: translateY(-2px);
+}
+
+.button.support:hover {
+  background-color: #5a6268;
+  transform: translateY(-2px);
+}
+
+.button:active {
+  transform: translateY(0);
+}
