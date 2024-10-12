@@ -1,0 +1,58 @@
+/* General body styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+  text-align: center;
+  padding: 50px;
+  margin: 0;
+}
+
+/* Styling for the large 404 text */
+h1 {
+  font-size: 80px;
+  color: #4285F4;
+  margin: 0;
+}
+
+/* Styling for the message paragraph */
+p {
+  font-size: 18px;
+  color: #555;
+  margin: 20px 0 40px;
+}
+
+/* Container to hold the buttons in a row */
+.button-container {
+  display: inline-block;
+  margin-top: 20px;
+}
+
+/* General button styling */
+.button {
+  display: inline-block;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 5px;
+  margin: 0 10px;
+  color: white;
+  transition: opacity 0.3s ease;
+}
+
+/* Blue button for "Go to homepage" */
+.button.home {
+  background-color: #4285F4;
+}
+
+/* Grey button for "Contact support" */
+.button.support {
+  background-color: #6c757d;
+  color: white;
+}
+
+/* Hover effect for buttons */
+.button:hover {
+  opacity: 0.85;
+}
