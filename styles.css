@@ -79,11 +79,13 @@ a:hover {
 .button:hover {
   background-color: #ffe680;
   transform: translateY(-2px);
+  color: #000; /* Ensure text is black when hovering */
 }
 
 .button:active {
   transform: translateY(0);
 }
+
 
 /* ============================== */
 /* 404 Specific Styles */
