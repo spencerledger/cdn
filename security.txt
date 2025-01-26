@@ -1,6 +1,6 @@
 # security.txt for cdn.spencers.zone
 
 Contact: webmaster@spencers.zone
-Encryption: https://www.cloudflare.com/learning/ssl/what-happens-in-a-tls-handshake/, https://www.cloudflare.com/ssl/
+Encryption: https://pki.goog/, https://www.digicert.com/about, https://letsencrypt.org/how-it-works/
 Preferred-Languages: en
 Expires: 2025-10-12T23:59:59Z
