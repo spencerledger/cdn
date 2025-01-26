@@ -3,4 +3,4 @@
 Contact: webmaster@spencers.zone
 Encryption: https://pki.goog/, https://www.digicert.com/about, https://letsencrypt.org/how-it-works/
 Preferred-Languages: en
-Expires: 2025-10-12T23:59:59Z
+Expires: 2025-26-01T18:17:57Z
