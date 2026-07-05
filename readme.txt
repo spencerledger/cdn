@@ -4,7 +4,7 @@ cdn.spencers.zone is the Spencer Ledger Website's Content Delivery Network.
 ## License
 Creative Commons Attribution-NonCommercial 4.0 International License
 
-Copyright © 2023-2026 The Spencer Ledger Website
+Copyright © 2023-2026 Spencer Ledger
 
 You are free to:
 - Share — copy and redistribute the material in any medium or format
