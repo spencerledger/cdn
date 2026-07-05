@@ -3,4 +3,4 @@
 Contact: webmaster@spencers.zone
 Encryption (certs used): https://pki.goog/, https://letsencrypt.org/how-it-works/
 Preferred-Languages: en
-Expires: 2027-05-07
+Expires: 2027-07-05
