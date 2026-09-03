@@ -1,6 +1,6 @@
 # security.txt for cdn.spencers.zone
 
 Contact: webmaster@spencers.zone
-Encryption (certs used): https://pki.goog/, https://letsencrypt.org/how-it-works/
+Encryption (certs used): See DNS records
 Preferred-Languages: en
-Expires: 2027-07-05
+Expires: 2027-079-03
