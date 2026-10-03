@@ -1,0 +1,160 @@
+Return-Path: <bounces+bounce_6a8c4e4379ef1128051905@novazoneeurope.com>
+X-Original-To: contact@spencers.zone
+Delivered-To: contact@spencers.zone
+Received: from mail.novazoneeurope.com (mail.novazoneeurope.com [89.171.114.189]) (using
+ TLSv1.3 with cipher TLS_AES_256_GCM_SHA384 (256/256 bits)
+  key-exchange X25519 server-signature RSA-PSS (4096 bits) server-digest SHA512) (No
+ client certificate requested) by mailin050.protonmail.ch (Postfix) with ESMTPS id
+ 4hdVs21j3Jz3Q for <contact@spencers.zone>; Mon, 07 Sep 2026 02:10:14 +0000 (UTC)
+Received: from marketing.novazoneeurope.com (localhost [127.0.0.1]) by
+ mail.novazoneeurope.com (Postfix) with ESMTP id 8DDC61E5155 for <contact@spencers.zone>;
+ Mon,
+  7 Sep 2026 04:10:08 +0200 (CEST)
+Authentication-Results: mail.protonmail.ch; dmarc=pass (p=none dis=none)
+ header.from=novazoneeurope.com
+Authentication-Results: mail.protonmail.ch; spf=pass smtp.mailfrom=novazoneeurope.com
+Authentication-Results: mail.protonmail.ch; arc=none smtp.remote-ip=89.171.114.189
+Authentication-Results: mail.protonmail.ch; dkim=pass (2048-bit key)
+ header.d=novazoneeurope.com header.i=@novazoneeurope.com header.b="Xg3fdZMP"
+Dkim-Signature: v=1; a=rsa-sha256; c=relaxed/simple; d=novazoneeurope.com; s=mail;
+ t=1788747008; bh=jeGwgo+Y8V/lvALWLoWPr/4vnKggDlYcvMVSFqRJYP0=;
+ h=Date:Subject:From:Reply-To:To:List-Unsubscribe;
+ b=Xg3fdZMPMSQ+8oQGsdmsoACPKf8TUURj8Rid9yg65AEAvzwWJUk4bt/RvmGSGbJAo
+  T1AdeV0bfQ5NX+QowdCOaeP4YXC53Fxh62JhmafCaTHbJNFuMFYxJ5lBWE1F3u0QS0
+  OFnicRJ1a/DFUpLdyl2VQEVzrivI1HQCFa9cZiE6J86OL1T3VQOLuDjTAlogmfKabL
+  GC7dB/8KBny64rnYS5uXKBWg63FomKvmOJQvHyQVDHSi8uModjY6itou4SiInZV2NB
+  GJ/u9R5cLFj+rgk/4jFdZWH7/cpJCas+ytswyyxAMXb/z2ZYg9NQPaE4jlVGihdhGL
+  9b0FsyYnu2/7Q==
+Message-Id: <28439d500586592071e1caa9441f5f1c@swift.generated>
+Date: Mon, 24 Aug 2026 13:59:31 +0000
+Subject: Is your brand ready to scale across Europe?
+From: Fulfillment Novazone <contact@novazoneeurope.com>
+Reply-To: contact@novazoneeurope.com
+To: contact@spencers.zone
+Mime-Version: 1.0
+Content-Type: text/html
+X-Email-Id: 39
+List-Unsubscribe: <mailto:bounces+unsubscribe_6a8c4e4379ef1128051905@novazoneeurope.com>,
+ <https://marketing.novazoneeurope.com/email/unsubscribe/6a8c4e4379ef1128051905>
+X-Pm-Spam: 0yezJI6YSpyJec91ztFGcjIxoJyLCvXBZcQniisnOkQZFNfRViDANOslxzJCL2Yy9ogZ
+ TzC4MOcT4s0lIkIBRVfVEfU5SUFET58FVlNY9I6WCuzMWN0FsLRkIUSf1lHU0EkVTIpjbx4CMSXiwt
+ JREWV9TQxUJ6ICRyWw0FdLjECJLSl0NBZ1XETElFVX0bjpILATus0VMkILR1fSUMkFVSRUfiYURlOt
+ s4xMCiSwXSRFNG9FT0TU5xPX0D19VT50UTFkUCV6IBdWzICJLV1EMF10X1UBNUiR0wlsOXwSiHNVTU
+ SfRJPRlNV9TVFEfBVESERSVpbIjsF0MINlQI9lRURPx5PX0ikUTOslwiwSX1UGBBBX1i1MUOslt91F
+ MCLzJ9yY26SIZNwCivN2cmckVo0Ij9jJLLJCz6IicyehJRpY3i24bOJipvJmbCesI1sImj3NXbJ3l7
+ pjIlISBQiT0yi0ONwSiPJFUFRQ9VEUkUUNSS9UOwojICLSJI6UyuTELMEDsBNlIjI0oIsLjkl9IZJW
+ 1p91ZmbvZp7IjSlBITQ0iisnOWah1VfZ2tmFbZIS6zhmIGdjF9ma1lW5aXR31kVmb3X1BIwXzwjYMN
+ ET4iwiIWbpF8zbFfHJcb9WkiwWZiOtJlsYWy3BML0Sy2IDMDMxU5wMSsCIdI1mhfxWa3MyBByX3i2I
+ bOAjsh1mIWa0xh0ZXt2VXYVmkulGZ1Zt9Rlb26CIbIlmusZGd2b0F11L2pHRbblGuhV3ZCbl11zNSs
+ WFbbICsfBnI3chBI6bSxC4MOcDzygTNDM1AAwNTzzkNNwSiz9FcGctFJhX2i2UcOAju3gTMzM4UAwM
+ jwTUNMcD5sUzMnIfBdpc3oGNdXR3voB3XXaoN5naWwjoILAjw0AjNzMwAY2NjwjANNYD1iwCOncuV5
+ hX2iWUbOJihtwGbmZhVVydHtXMZcVHfpd3cGdoN19IniSwfcJ3p6ICZjIhZUxOW4DAZYU23mFWYjM2
+ UU4N23TcZMJi9fQ==
+X-Pm-Origin: external
+X-Pm-Transfer-Encryption: TLSv1.3 with cipher TLS_AES_256_GCM_SHA384 (256/256 bits)
+X-Pm-Content-Encryption: on-delivery
+X-Pm-Spamscore: 4
+X-Pm-Spam-Action: inbox
+X-Pm-List-Identifier: @contact@novazoneeurope.com
+
+-----BEGIN PGP MESSAGE-----
+Version: ProtonMail
+
+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
+=cwux
+-----END PGP MESSAGE-----
